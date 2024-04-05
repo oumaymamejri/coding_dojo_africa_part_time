@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>registration form</title>
+ </head>
+ <body>
+  <h1> Registration form</h1>
+  <form action="/process" method="post">
+    <div>
+  
+  <label for="first"
+  >First Name:*</label
+>
+<input
+  type="text"
+  id="first"
+  name="first"
+  required
+/>
+</div>
+<div>
+<label for="last"
+  >Last Name:*</label
+>
+<input
+  type="text"
+  id="last"
+  name="last"
+  required
+/>
+</div>
+<div>
+
+<label for="email">Email adress:*</label>
+<input
+  type="email"
+  id="email"
+  name="email"
+  required
+/>
+</div>
+<div>
+<label for="password"
+  >Password:*</label
+>
+<input
+  type="password"
+  id="password"
+  name="password"
+  required
+/>
+</div>
+<div>
+<label for="confirmpassword"
+  >confirm password:*</label
+>
+<input
+  type="password"
+  id="confirmpassword"
+  name="confirmpassword"
+  required
+/>
+</div>
+<div>
+
+<label for="birthday"
+  >Birthday:</label
+>
+<input
+  type="date"
+  id="birthday"
+  name="birthday"
+  placeholder="mm/dd/yy"
+  
+  required
+/>
+</div>
+<div>
+
+<label for="gender"
+  >Gender Identity:</label
+>
+<select
+  id="gender"
+  name="gender"
+  required
+>
+  <option value="male">
+      Male
+  </option>
+  <option value="female">
+      Female
+  </option>
+  <option value="Non-binary">
+        Non-binary
+  </option>
+</div>
+  <option value="I prefer not to answer">
+        I prefer not to answe
+    </option>
+</select>
+<p> Ashort desription about my self:</p>
+
+<textarea name="comment" cols="20" rows="3"></textarea>
+<div>
+<select name="favorite language">
+        <option value="java sript">java sript</option>
+        <option value="python">python</option>
+        <option value="C">C</option>
+        <option value="java">java</option>
+    </select>
+</div>
+<div>
+  Favorite languages :<input type="checkbox" name="accept" id="accept">
+<label for="accept">Yes I would like to receive periodic email updates </label>
+</div>
+
+<button type="Create Account ">
+        Create Account
+</button>
+<p>*indicated a required files</p>
+
+</form>
+ </body>
+</html>
