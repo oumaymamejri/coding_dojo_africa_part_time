@@ -1,0 +1,35 @@
+.search{
+    margin-top: 50px;
+      margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: #04AA6D;
+    border: 2px solid #04AA6D;
+   border-radius: 30%;
+    width: 30%;
+      height:20px;
+     display : block 
+  }
+  .plus
+  {  margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: #04AA6D;
+    color: white;
+    border: 2px solid #04AA6D;
+   border-radius:300%;
+    width: 10%;
+      height:20px;
+    display : block;
+   }
+  .Account
+  {
+    border: 2px solid dark;
+    display : block;
+     background-color:#0080ff ;
+       color: white;
+    margin-left: 50px;
+    box-shadow: 3px 3px black ; 
+    width: 40%;
+      height:30px
+    
+  }
